@@ -55,9 +55,8 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
+<repositories>
+					<repository>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -65,6 +64,29 @@
 			<name>bintray</name>
 			<url>https://dl.bintray.com/atomist/atomist</url>
 		</repository>
+		<repository>
+			<id>dev-azure-com-mcadorette-mcadorette</id>
+			<url>https://pkgs.dev.azure.com/mcadorette/_packaging/mcadorette/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>dev-azure-com-mcadorette-mcadorette</id>
+			<url>https://pkgs.dev.azure.com/mcadorette/_packaging/mcadorette/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
+
 
 </project>
