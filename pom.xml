@@ -10,7 +10,6 @@
 
 	<name>spring-rest</name>
 	<description>Atomist seed for Java Spring Boot REST services</description>
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
